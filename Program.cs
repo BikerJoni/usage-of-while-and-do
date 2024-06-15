@@ -13,7 +13,7 @@ do
     lastNumber = Convert.ToInt32(inputLast);
     while (number <= lastNumber)
     {
-        
+        Console.WriteLine(number + " karra jadvali :");
         Console.WriteLine($"1 x {number} = {number * 1}");
         Console.WriteLine($"2 x {number} = {number * 2}");
         Console.WriteLine($"3 x {number} = {number * 3}");
