@@ -23,7 +23,7 @@ do
         Console.Write($"6 x {number} = {number * 6} ");
         Console.Write($"7 x {number} = {number * 7} ");
         Console.Write($"8 x {number} = {number * 8} ");
-        Console.Write($"9 x {number} = {number * 9} "); 
+        Console.WriteLine($"9 x {number} = {number * 9} "); 
         number++;
         
     }
