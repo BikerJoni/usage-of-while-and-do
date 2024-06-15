@@ -25,7 +25,7 @@ do
         Console.WriteLine($"9 x {number} = {number * 9}");
         number++;
     }
-    Console.WriteLine("Do you want continue? (y -> n)");
+    Console.WriteLine("Do you want continue? (yes -> no)");
     userInput = Console.ReadLine();
 }
-while(userInput == "y");
+while(userInput == "yes");
