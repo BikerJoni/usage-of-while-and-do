@@ -3,11 +3,20 @@
 string userInput;
 do
 {
-    int input = 0;
-    while(input <= 9)
+    Console.WriteLine("Karra jadval");
+    int number = 1 ;
+    while (number <= 9)
     {
-        Console.WriteLine($"9 x {input} = {input * 9}");
-        input++;
+        int multiplyer = 1;
+        while(multiplyer <= 9)
+        {
+            Console.WriteLine(multiplyer * number);
+            multiplyer++;
+        }
+
+       Console.WriteLine("number: " + number);
+        number++;
+
     }
     Console.WriteLine("Do you want continue? (y -> n)");
     userInput = Console.ReadLine();
